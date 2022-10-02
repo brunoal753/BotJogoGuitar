@@ -4,8 +4,9 @@ import pyautogui
 import keyboard
 from time import sleep
 
+# SITE: https://guitarflash.com/?lg=pt
 
-# tEREMOS QUE COPO
+# Pegar as coordenadas e clicar uma vez a cada vez que certa cor aparecer dentro do círculo
 while keyboard.is_pressed('1') == False:
     if pyautogui.pixelMatchesColor(1291,722,(12,152,33)):
         pyautogui.press('a')
