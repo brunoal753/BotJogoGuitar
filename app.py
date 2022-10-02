@@ -17,3 +17,5 @@ while keyboard.is_pressed('1') == False:
     if pyautogui.pixelMatchesColor(1466,722,(244,244,64)):
         pyautogui.press('j')
         sleep(0.05)
+
+# FINISH
